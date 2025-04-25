@@ -9,18 +9,17 @@ int b=20;
 
 System.out.println(a+b);
 }
-public static void sub()
+public static int sub(int a,int b)
 {
-int a=20;
+int c;
 
-int b=10;
-
-System.out.println(a-b);
+return c=a-b;
 }
 	public static void main(String[] args)
 	{
 System.out.println("Hello World!!");
 add();
-sub();
+int subValue=sub();
+System.out.println(subValue);
 	}
 }
