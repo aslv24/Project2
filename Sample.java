@@ -2,7 +2,6 @@ public class Sample{
 
 public static void add()
 {
-
 int a=10;
 
 int b=20;
